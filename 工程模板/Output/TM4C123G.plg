@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\¹¤³ÌÄ£°å\Project\RVMDK£¨uv4£©\TM4C123G.uvproj
+Project File Date:  07/17/2016
+
+<h2>Output:</h2>
+compiling main.c...
+"..\..\User\main.c" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling uartstdio.c...
+..\..\Libraries\utils\uartstdio.c(28): error:  #5: cannot open source input file "inc/hw_ints.h": No such file or directory
+"..\..\Output\TM4C123G.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling uartstdio.c...
+linking...
+..\..\Output\TM4C123G.sct(7): error: L6236E: No section matches selector - no section to be FIRST/LAST.
+"..\..\Output\TM4C123G.axf" - 1 Errors, 0 Warning(s).
+Target not created
+compiling uartstdio.c...
+"..\..\Libraries\utils\uartstdio.c" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+..\..\Output\TM4C123G.sct(7): error: L6236E: No section matches selector - no section to be FIRST/LAST.
+"..\..\Output\TM4C123G.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2456 RO-data=540 RW-data=8 ZI-data=608  
+"..\..\Output\TM4C123G.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+assembling startup_rvmdk.S...
+linking...
+Program Size: Code=2456 RO-data=540 RW-data=8 ZI-data=608  
+"..\..\Output\TM4C123G.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2456 RO-data=540 RW-data=8 ZI-data=608  
+"..\..\Output\TM4C123G.axf" - 0 Errors, 0 Warning(s).
+Load "..\\..\\Output\\TM4C123G.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=2456 RO-data=540 RW-data=8 ZI-data=608  
+"..\..\Output\TM4C123G.axf" - 0 Errors, 0 Warning(s).

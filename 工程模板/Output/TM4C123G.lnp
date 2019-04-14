@@ -1,0 +1,9 @@
+--cpu Cortex-M4.fp
+"..\..\Libraries\driverlib\rvmdk\driverlib.lib"
+"..\..\output\main.o"
+"..\..\output\uartstdio.o"
+"..\..\output\startup_rvmdk.o"
+--strict --scatter "..\..\Output\TM4C123G.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\..\TM4C123G.map" -o ..\..\Output\TM4C123G.axf

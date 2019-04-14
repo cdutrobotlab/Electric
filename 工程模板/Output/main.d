@@ -1,0 +1,14 @@
+..\..\output\main.o: ..\..\User\main.c
+..\..\output\main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdint.h
+..\..\output\main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdbool.h
+..\..\output\main.o: ..\..\Libraries\inc\hw_memmap.h
+..\..\output\main.o: ..\..\Libraries\inc\hw_types.h
+..\..\output\main.o: ..\..\Libraries\driverlib\debug.h
+..\..\output\main.o: ..\..\Libraries\driverlib\fpu.h
+..\..\output\main.o: ..\..\Libraries\driverlib\gpio.h
+..\..\output\main.o: ..\..\Libraries\driverlib\pin_map.h
+..\..\output\main.o: ..\..\Libraries\driverlib\rom.h
+..\..\output\main.o: ..\..\Libraries\driverlib\sysctl.h
+..\..\output\main.o: ..\..\Libraries\driverlib\uart.h
+..\..\output\main.o: ..\..\Libraries\utils\uartstdio.h
+..\..\output\main.o: D:\Keil_v4\ARM\ARMCC\bin\..\include\stdarg.h
